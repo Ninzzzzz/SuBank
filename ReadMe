@@ -1,0 +1,47 @@
+Bank Application
+Overview
+The Bank Application is a comprehensive platform designed to facilitate various banking operations for customers, employees, and administrators. This application ensures a seamless experience for users to manage their accounts, process transactions, and handle loan requests efficiently.
+
+Features
+User Authentication: Secure login functionality tailored for different user roles including customers, employees, and administrators.
+Account Management: Customers can view their account details, including account numbers, types, balances, and transaction history.
+Loan Request Management: Customers can submit loan requests, which are then reviewed and processed by employees and administrators.
+Approval Workflow: A robust approval system for loan requests, ensuring only authorized requests are processed.
+Role-Based Access Control: Different features and menu items are accessible based on the user's role, providing a customized experience for each user type.
+Installation
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/bank-application.git
+cd bank-application
+Database Setup:
+
+Ensure you have Oracle Database set up and running.
+Import the provided SQL scripts to create the necessary tables and procedures.
+Oracle APEX Setup:
+
+Import the APEX application file into your Oracle APEX environment.
+Configure the database connections and application settings as needed.
+Usage
+User Roles
+Customer:
+
+View account balances and transaction history.
+Submit and track loan requests.
+Access personalized banking services.
+Employee:
+
+Review and process customer loan requests.
+Manage customer accounts and handle transactions.
+Provide customer support and resolve issues.
+Administrator:
+
+Oversee all operations within the system.
+Manage user roles, permissions, and system settings.
+Generate reports and analytics on banking operations.
+Key Workflows
+View Account Details: Customers can log in to view their account balances, transaction history, and other account-related information.
+Submit Loan Request: Customers can fill out a form to submit a loan request, specifying the loan amount and purpose.
+Review and Approve Loan Requests: Employees and administrators review the submitted loan requests and approve or reject them based on predefined criteria.
+Manage User Access: Administrators can manage user roles and permissions, ensuring secure and role-specific access to the application features.
